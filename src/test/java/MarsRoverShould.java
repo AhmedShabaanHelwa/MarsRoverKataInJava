@@ -5,7 +5,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MarsRoverShould {
     @ParameterizedTest
-    @CsvSource({"0:0:N, 0:0:N"})
+    @CsvSource({
+            "0:0:N, 0:0:N",
+            "4:3:W, 3:4:W"
+    })
     void printInitialState(String initialState, String finalState) {
         // Arrange
         MarsRover marsRover = new MarsRover();

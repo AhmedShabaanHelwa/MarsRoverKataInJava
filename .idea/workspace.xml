@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Add .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/test/java/MarsRover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MarsRoverShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 1: Print Initial State. Cycle 2: Green: Add MarsRover class and introduce minimal change to print initial state.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MarsRoverShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MarsRoverShould.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +32,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ahmed/IdeaProjects/MarsRoverKata_03&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmed\IdeaProjects\MarsRoverKata_03" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.MarsRoverShould.printInitialState">
+  <component name="RunManager" selected="JUnit.MarsRoverShould">
+    <configuration name="MarsRoverShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarsRoverKata_03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MarsRoverShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MarsRoverShould.printInitialState (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRoverKata_03" />
       <option name="PACKAGE_NAME" value="" />
@@ -70,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MarsRoverShould" />
         <item itemvalue="JUnit.MarsRoverShould.printInitialState" />
         <item itemvalue="JUnit.MarsRoverShould.printInitialState (1)" />
       </list>
@@ -83,7 +94,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655366759618</updated>
-      <workItem from="1655366761558" duration="2164000" />
+      <workItem from="1655366761558" duration="2367000" />
+      <workItem from="1655409575001" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="Add.">
       <created>1655366789394</created>
@@ -99,7 +111,28 @@
       <option name="project" value="LOCAL" />
       <updated>1655366800325</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add commits.md to concretely track the development steps.">
+      <created>1655369002191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655369002191</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Feature 1: Print Initial State. Cycle 1: Red: Create MarsRoverShould class and Add test to print initial state 0:0:N.">
+      <created>1655369099586</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655369099586</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Feature 1: Print Initial State. Cycle 2: Green: Add MarsRover class and introduce minimal change to print initial state.">
+      <created>1655369145619</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655369145619</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +152,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create the project." />
     <MESSAGE value="Add .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore" />
+    <MESSAGE value="Add commits.md to concretely track the development steps." />
+    <MESSAGE value="Feature 1: Print Initial State. Cycle 1: Red: Create MarsRoverShould class and Add test to print initial state 0:0:N." />
+    <MESSAGE value="Feature 1: Print Initial State. Cycle 2: Green: Add MarsRover class and introduce minimal change to print initial state." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature 1: Print Initial State. Cycle 2: Green: Add MarsRover class and introduce minimal change to print initial state." />
   </component>
 </project>
