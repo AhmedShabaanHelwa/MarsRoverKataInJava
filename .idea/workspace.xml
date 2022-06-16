@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 1: Print Initial State. Cycle 2: Green: Add MarsRover class and introduce minimal change to print initial state.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 1: Print Initial State. Cycle 3: Refactor: Introduce final field initialPosition, initialized at creation of MarsRover object.">
+      <change beforePath="$PROJECT_DIR$/src/test/java/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MarsRover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MarsRoverShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MarsRoverShould.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655366759618</updated>
       <workItem from="1655366761558" duration="2367000" />
-      <workItem from="1655409575001" duration="347000" />
+      <workItem from="1655409575001" duration="726000" />
     </task>
     <task id="LOCAL-00001" summary="Add.">
       <created>1655366789394</created>
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655369145619</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Feature 1: Print Initial State. Mini cycle: Triangulating initial positions to include centric and non-centric initial positions.">
+      <created>1655410030973</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655410030973</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +162,9 @@
     <MESSAGE value="Add commits.md to concretely track the development steps." />
     <MESSAGE value="Feature 1: Print Initial State. Cycle 1: Red: Create MarsRoverShould class and Add test to print initial state 0:0:N." />
     <MESSAGE value="Feature 1: Print Initial State. Cycle 2: Green: Add MarsRover class and introduce minimal change to print initial state." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature 1: Print Initial State. Cycle 2: Green: Add MarsRover class and introduce minimal change to print initial state." />
+    <MESSAGE value="| Feature 1: Print Initial State. Mini cycle: Triangulating initial positions to include centric and non-centric initial positions." />
+    <MESSAGE value="Feature 1: Print Initial State. Mini cycle: Triangulating initial positions to include centric and non-centric initial positions." />
+    <MESSAGE value="Feature 1: Print Initial State. Cycle 3: Refactor: Introduce final field initialPosition, initialized at creation of MarsRover object." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature 1: Print Initial State. Cycle 3: Refactor: Introduce final field initialPosition, initialized at creation of MarsRover object." />
   </component>
 </project>

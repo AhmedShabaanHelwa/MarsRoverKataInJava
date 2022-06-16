@@ -7,11 +7,11 @@ class MarsRoverShould {
     @ParameterizedTest
     @CsvSource({
             "0:0:N, 0:0:N",
-            "4:3:W, 3:4:W"
+            "4:3:W, 4:3:W"
     })
     void printInitialState(String initialState, String finalState) {
         // Arrange
-        MarsRover marsRover = new MarsRover();
+        MarsRover marsRover = new MarsRover(initialState);
         // Act
         String result = marsRover.execute("");
         // Assert
