@@ -17,13 +17,29 @@ class MarsRover {
 
         if (commands.equals("M")) {
             switch (direction) {
-                case "N" -> position.setY(position.getY() + 1);
-                case "E" -> position.setX(position.getX() + 1);
-                case "S" -> position.setY(position.getY() - 1);
-                case "W" -> position.setX(position.getX() - 1);
+                case "N" -> moveNorth();
+                case "E" -> moveEast();
+                case "S" -> moveSouth();
+                case "W" -> moveWest();
                 default -> throw new UnsupportedOperationException("Direction " + direction + " is not supported.");
             }
         }
         return position.getX() + ":" + position.getY() + ":" + direction;
+    }
+
+    private void moveWest() {
+        position.setX(position.getX() - 1);
+    }
+
+    private void moveSouth() {
+        position.setY(position.getY() - 1);
+    }
+
+    private void moveEast() {
+        position.setX(position.getX() + 1);
+    }
+
+    private void moveNorth() {
+        position.setY(position.getY() + 1);
     }
 }
