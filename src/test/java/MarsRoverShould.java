@@ -9,8 +9,11 @@ class MarsRoverShould {
     @CsvSource(value = {
             "0:0:N,'',0:0:N",
             "4:3:W,'  ',4:3:W",
-            "0:0:N, M,0:1:N",
-            "3:6:N, M,3:7:N"
+            "0:0:N, M, 0:1:N",  // Towards North, from the center.
+            "3:6:N, M, 3:7:N",  // Towards North, from a random point
+            "3:6:W, M, 2:6:W",  // Towards West
+            "3:6:E, M, 4:6:E",  // Towards East
+            "3:6:S, M, 3:5:S"   // Towards South
     })
     void executeCommands(String initialState, String commands, String finalState) {
         // Arrange
@@ -20,4 +23,12 @@ class MarsRoverShould {
         // Assert
         assertEquals(finalState, result);
     }
+
+    /*
+        yield return new object[] {"0:0:N", "M", "0:1:N"}; // Towards North, from the center.
+        yield return new object[] {"3:6:N", "M", "3:7:N"}; // Towards North, from a random point
+        yield return new object[] {"3:6:W", "M", "2:6:W"}; // Towards West
+        yield return new object[] {"3:6:E", "M", "4:6:E"}; // Towards East
+        yield return new object[] {"3:6:S", "M", "3:5:S"}; // Towards South
+    * */
 }

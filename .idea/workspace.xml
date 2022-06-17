@@ -32,14 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ahmed/IdeaProjects/MarsRoverKata_03&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Ahmed/IdeaProjects/MarsRoverKata_03",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -119,7 +120,7 @@
       <workItem from="1655366761558" duration="2367000" />
       <workItem from="1655409575001" duration="1287000" />
       <workItem from="1655457214049" duration="3020000" />
-      <workItem from="1655463508771" duration="3270000" />
+      <workItem from="1655463508771" duration="4211000" />
     </task>
     <task id="LOCAL-00001" summary="Add.">
       <created>1655366789394</created>
@@ -198,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655459321887</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Feature 2: Cycle 3: Refactor: Refactor test methods to be a single one accepting the command and states.">
+      <created>1655470819541</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655470819541</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +237,8 @@
     <MESSAGE value="Feature 2: Move Forward. Cycle 2: Green: Introduce minimal change for MarsRover.execute() function to move one step forward in Y direction." />
     <MESSAGE value="Feature 2: Move Forward. Mini Cycle:  Triangulating moveForward test to accept different initial and final states (North only)." />
     <MESSAGE value="Feature 2: Move Forward. Cycle 2: Green: Parse the initialState inside execute() and increment the corresponding direction." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature 2: Move Forward. Cycle 2: Green: Parse the initialState inside execute() and increment the corresponding direction." />
+    <MESSAGE value="Feature 2: Cycle 3: Refactor: Refactor test methods to be a single one accepting the command and states." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature 2: Cycle 3: Refactor: Refactor test methods to be a single one accepting the command and states." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
