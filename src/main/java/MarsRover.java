@@ -17,7 +17,7 @@ class MarsRover {
 
         if (commands.equals("M")) {
             switch (direction) {
-                case "N" -> position = moveNorth();
+                case "N" -> position = moveNorth(position);
                 case "E" -> position = moveEast(position);
                 case "S" -> position = moveSouth(position);
                 case "W" -> position = moveWest(position);
@@ -42,7 +42,7 @@ class MarsRover {
         return position;
     }
 
-    private Position moveNorth() {
+    private Position moveNorth(Position position) {
         position.setY(position.getY() + 1);
         return position;
     }
