@@ -17,4 +17,17 @@ class MarsRoverShould {
         // Assert
         assertEquals(finalState,result);
     }
+
+    @ParameterizedTest
+    @CsvSource({
+            "0:0:N,0:1:N"
+    })
+    void moveForward(String initialState, String finalState){
+        // Arrange
+        MarsRover marsRover = new MarsRover(initialState);
+        // Act
+        String result = marsRover.execute("M");
+        // Assert
+        assertEquals(finalState, result);
+    }
 }

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 1: Print Initial State. Cycle 3: Refactor: Introduce final field initialPosition, initialized at creation of MarsRover object.">
-      <change beforePath="$PROJECT_DIR$/src/test/java/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MarsRover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MarsRoverShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MarsRoverShould.java" afterDir="false" />
+    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 1: Print Initial State. Cycle 3: Refactor: Introduce minimal changes as a final field initialPosition, initialized at creation of MarsRover object.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +47,22 @@
       <recent name="C:\Users\Ahmed\IdeaProjects\MarsRoverKata_03" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MarsRoverShould">
+  <component name="RunManager" selected="JUnit.MarsRoverShould.moveForward">
     <configuration name="MarsRoverShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRoverKata_03" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MarsRoverShould" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarsRoverShould.moveForward" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarsRoverKata_03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MarsRoverShould" />
+      <option name="METHOD_NAME" value="moveForward(java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,8 +89,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MarsRoverShould" />
+        <item itemvalue="JUnit.MarsRoverShould.moveForward" />
         <item itemvalue="JUnit.MarsRoverShould.printInitialState" />
+        <item itemvalue="JUnit.MarsRoverShould" />
         <item itemvalue="JUnit.MarsRoverShould.printInitialState (1)" />
       </list>
     </recent_temporary>
@@ -95,7 +105,8 @@
       <option name="presentableId" value="Default" />
       <updated>1655366759618</updated>
       <workItem from="1655366761558" duration="2367000" />
-      <workItem from="1655409575001" duration="726000" />
+      <workItem from="1655409575001" duration="1287000" />
+      <workItem from="1655457214049" duration="772000" />
     </task>
     <task id="LOCAL-00001" summary="Add.">
       <created>1655366789394</created>
@@ -139,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655410030973</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Feature 1: Print Initial State. Cycle 2: Green: Introduce minimal changes as a final field initialPosition, initialized at creation of MarsRover object.">
+      <created>1655410374974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655410374976</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +183,7 @@
     <MESSAGE value="| Feature 1: Print Initial State. Mini cycle: Triangulating initial positions to include centric and non-centric initial positions." />
     <MESSAGE value="Feature 1: Print Initial State. Mini cycle: Triangulating initial positions to include centric and non-centric initial positions." />
     <MESSAGE value="Feature 1: Print Initial State. Cycle 3: Refactor: Introduce final field initialPosition, initialized at creation of MarsRover object." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature 1: Print Initial State. Cycle 3: Refactor: Introduce final field initialPosition, initialized at creation of MarsRover object." />
+    <MESSAGE value="Feature 1: Print Initial State. Cycle 2: Green: Introduce minimal changes as a final field initialPosition, initialized at creation of MarsRover object." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature 1: Print Initial State. Cycle 2: Green: Introduce minimal changes as a final field initialPosition, initialized at creation of MarsRover object." />
   </component>
 </project>
