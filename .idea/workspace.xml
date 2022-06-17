@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 2: Move Forward. Mini Cycle:  Triangulating moveForward test to accept different initial and final states (North only).">
-      <change beforePath="$PROJECT_DIR$/src/test/java/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MarsRover.java" afterDir="false" />
+    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 2: Cycle 3: Refactor: Refactor test methods to be a single one accepting the command and states.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MarsRoverShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MarsRoverShould.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +48,32 @@
       <recent name="C:\Users\Ahmed\IdeaProjects\MarsRoverKata_03" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MarsRoverShould.moveForward">
+  <component name="RunManager" selected="JUnit.MarsRoverShould">
     <configuration name="MarsRoverShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRoverKata_03" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MarsRoverShould" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarsRoverShould.executeCommands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarsRoverKata_03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MarsRoverShould" />
+      <option name="METHOD_NAME" value="executeCommands(java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarsRoverShould.executeCommands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarsRoverKata_03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MarsRoverShould" />
+      <option name="METHOD_NAME" value="executeCommands(java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -67,21 +88,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarsRoverShould.printInitialState (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MarsRoverShould.testWithCsvSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRoverKata_03" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MarsRoverShould" />
-      <option name="METHOD_NAME" value="printInitialState(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MarsRoverShould.printInitialState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MarsRoverKata_03" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MarsRoverShould" />
-      <option name="METHOD_NAME" value="printInitialState(java.lang.String,java.lang.String)" />
+      <option name="METHOD_NAME" value="testWithCsvSource(java.lang.String,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,9 +101,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MarsRoverShould" />
+        <item itemvalue="JUnit.MarsRoverShould.executeCommands" />
+        <item itemvalue="JUnit.MarsRoverShould.testWithCsvSource" />
         <item itemvalue="JUnit.MarsRoverShould.moveForward" />
-        <item itemvalue="JUnit.MarsRoverShould.printInitialState" />
-        <item itemvalue="JUnit.MarsRoverShould.printInitialState (1)" />
+        <item itemvalue="JUnit.MarsRoverShould.executeCommands" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +118,8 @@
       <updated>1655366759618</updated>
       <workItem from="1655366761558" duration="2367000" />
       <workItem from="1655409575001" duration="1287000" />
-      <workItem from="1655457214049" duration="1725000" />
+      <workItem from="1655457214049" duration="3020000" />
+      <workItem from="1655463508771" duration="3270000" />
     </task>
     <task id="LOCAL-00001" summary="Add.">
       <created>1655366789394</created>
@@ -178,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655458782112</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Feature 2: Move Forward. Cycle 2: Green: Parse the initialState inside execute() and increment the corresponding direction.">
+      <created>1655459321887</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655459321887</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +228,23 @@
     <MESSAGE value="Feature 2: Move Forward. Cycle 1: Red: Add test to move forward one step from center towards north (Y) direction." />
     <MESSAGE value="Feature 2: Move Forward. Cycle 2: Green: Introduce minimal change for MarsRover.execute() function to move one step forward in Y direction." />
     <MESSAGE value="Feature 2: Move Forward. Mini Cycle:  Triangulating moveForward test to accept different initial and final states (North only)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature 2: Move Forward. Mini Cycle:  Triangulating moveForward test to accept different initial and final states (North only)." />
+    <MESSAGE value="Feature 2: Move Forward. Cycle 2: Green: Parse the initialState inside execute() and increment the corresponding direction." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature 2: Move Forward. Cycle 2: Green: Parse the initialState inside execute() and increment the corresponding direction." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MarsRover.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MarsRoverShould.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

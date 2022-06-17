@@ -1,33 +1,22 @@
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.provider.ValueSource;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 class MarsRoverShould {
     @ParameterizedTest
-    @CsvSource({
-            "0:0:N, 0:0:N",
-            "4:3:W, 4:3:W"
+    @CsvSource(value = {
+            "0:0:N,'',0:0:N",
+            "4:3:W,'  ',4:3:W",
+            "0:0:N, M,0:1:N",
+            "3:6:N, M,3:7:N"
     })
-    void printInitialState(String initialState, String finalState) {
+    void executeCommands(String initialState, String commands, String finalState) {
         // Arrange
         MarsRover marsRover = new MarsRover(initialState);
         // Act
-        String result = marsRover.execute("");
-        // Assert
-        assertEquals(finalState,result);
-    }
-
-    @ParameterizedTest
-    @CsvSource({
-            "0:0:N, 0:1:N",
-            "3:6:N, 3:7:N"
-    })
-    void moveForward(String initialState, String finalState){
-        // Arrange
-        MarsRover marsRover = new MarsRover(initialState);
-        // Act
-        String result = marsRover.execute("M");
+        String result = marsRover.execute(commands);
         // Assert
         assertEquals(finalState, result);
     }
