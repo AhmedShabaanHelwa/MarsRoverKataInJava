@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 2: Cycle 3: Refactor: Switch-code smell: 2. Decouple the methods introduced from the MarsRover class by returning new instances of Position." />
+    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 2: Cycle 3: Refactor: Switch-code smell: 3. Make the methods introduced from the MarsRover class as static so that being extracted to a separate class.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/East.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/North.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/South.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/West.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MarsRover.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +126,7 @@
       <workItem from="1655366761558" duration="2367000" />
       <workItem from="1655409575001" duration="1287000" />
       <workItem from="1655457214049" duration="3020000" />
-      <workItem from="1655463508771" duration="11774000" />
+      <workItem from="1655463508771" duration="12094000" />
     </task>
     <task id="LOCAL-00001" summary="Add.">
       <created>1655366789394</created>
@@ -255,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655484524591</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Feature 2: Cycle 3: Refactor: Switch-code smell: 3. Make the methods introduced from the MarsRover class as static so that being extracted to a separate class.">
+      <created>1655484715827</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1655484715827</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +306,8 @@
     <MESSAGE value="Feature 2: Cycle 3: Refactor: Move MarsRover and Position classes to main source path." />
     <MESSAGE value="Feature 2: Cycle 3: Refactor: Switch-code smell: 1. Extract methods from the switch cases." />
     <MESSAGE value="Feature 2: Cycle 3: Refactor: Switch-code smell: 2. Decouple the methods introduced from the MarsRover class by returning new instances of Position." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature 2: Cycle 3: Refactor: Switch-code smell: 2. Decouple the methods introduced from the MarsRover class by returning new instances of Position." />
+    <MESSAGE value="Feature 2: Cycle 3: Refactor: Switch-code smell: 3. Make the methods introduced from the MarsRover class as static so that being extracted to a separate class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature 2: Cycle 3: Refactor: Switch-code smell: 3. Make the methods introduced from the MarsRover class as static so that being extracted to a separate class." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
