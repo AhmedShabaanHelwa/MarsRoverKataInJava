@@ -4,7 +4,6 @@ class MarsRover {
     private final Position position;
 
     public MarsRover(String initialState) {
-
         this.initialState = initialState;
         position = new Position();
     }
