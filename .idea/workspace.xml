@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 2: Cycle 3: Refactor: Switch-code smell: 7. Introduce the right amount of duplication so that extracting the methods from cases.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MarsRover.java" afterDir="false" />
+    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 2: Cycle 3: Refactor: Clean up some comments in test class.">
+      <change beforePath="$PROJECT_DIR$/src/test/java/MarsRoverShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MarsRoverShould.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2AeOoHfNtiFLSqZ9sc7xtPyV4i5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,6 +41,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_directory_selection": "C:/Users/Ahmed/IdeaProjects/MarsRoverKata_03/src/main/java",
     "last_opened_file_path": "C:/Users/Ahmed/IdeaProjects/MarsRoverKata_03",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
@@ -312,7 +315,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create the project." />
     <MESSAGE value="Add .gitignore" />
     <MESSAGE value="Add commits.md to concretely track the development steps." />
     <MESSAGE value="Feature 1: Print Initial State. Cycle 1: Red: Create MarsRoverShould class and Add test to print initial state 0:0:N." />
@@ -337,6 +339,7 @@
     <MESSAGE value="Feature 2: Cycle 3: Refactor: Switch-code smell: 5. Renaming methods to the same name, on the way to introduce polymorphism." />
     <MESSAGE value="Feature 2: Cycle 3: Refactor: Switch-code smell: 6. Make the methods introduced as &quot;instance&quot; methods, and pull them up to IDirection interface." />
     <MESSAGE value="Feature 2: Cycle 3: Refactor: Switch-code smell: 7. Introduce the right amount of duplication so that extracting the methods from cases." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature 2: Cycle 3: Refactor: Switch-code smell: 7. Introduce the right amount of duplication so that extracting the methods from cases." />
+    <MESSAGE value="Feature 2: Cycle 3: Refactor: Clean up some comments in test class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature 2: Cycle 3: Refactor: Clean up some comments in test class." />
   </component>
 </project>

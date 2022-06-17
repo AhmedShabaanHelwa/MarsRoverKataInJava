@@ -1,10 +1,9 @@
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import org.junit.jupiter.params.provider.ValueSource;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class MarsRoverShould {
+class MarsRoverShouldTests {
     @ParameterizedTest
     @CsvSource(value = {
             "0:0:N,'',0:0:N",
@@ -23,12 +22,4 @@ class MarsRoverShould {
         // Assert
         assertEquals(finalState, result);
     }
-
-    /*
-        yield return new object[] {"0:0:N", "M", "0:1:N"}; // Towards North, from the center.
-        yield return new object[] {"3:6:N", "M", "3:7:N"}; // Towards North, from a random point
-        yield return new object[] {"3:6:W", "M", "2:6:W"}; // Towards West
-        yield return new object[] {"3:6:E", "M", "4:6:E"}; // Towards East
-        yield return new object[] {"3:6:S", "M", "3:5:S"}; // Towards South
-    * */
 }
