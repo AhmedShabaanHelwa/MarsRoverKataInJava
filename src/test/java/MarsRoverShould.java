@@ -20,7 +20,8 @@ class MarsRoverShould {
 
     @ParameterizedTest
     @CsvSource({
-            "0:0:N,0:1:N"
+            "0:0:N, 0:1:N",
+            "3:6:N, 3:7:N"
     })
     void moveForward(String initialState, String finalState){
         // Arrange
