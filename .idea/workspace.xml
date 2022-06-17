@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 2: Cycle 3: Refactor: Move MarsRover and Position classes to main source path.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MarsRover.java" afterDir="false" />
-    </list>
+    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 2: Cycle 3: Refactor: Switch-code smell: 2. Decouple the methods introduced from the MarsRover class by returning new instances of Position." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +120,7 @@
       <workItem from="1655366761558" duration="2367000" />
       <workItem from="1655409575001" duration="1287000" />
       <workItem from="1655457214049" duration="3020000" />
-      <workItem from="1655463508771" duration="11270000" />
+      <workItem from="1655463508771" duration="11774000" />
     </task>
     <task id="LOCAL-00001" summary="Add.">
       <created>1655366789394</created>
@@ -237,7 +234,28 @@
       <option name="project" value="LOCAL" />
       <updated>1655482824069</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Feature 2: Cycle 3: Refactor: Switch-code smell: 1. Extract methods from the switch cases.">
+      <created>1655484054470</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1655484054470</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Feature 2: Cycle 3: Refactor: Switch-code smell: 2. Decouple the methods introduced from the MarsRover class by returning new instances of Position.">
+      <created>1655484485637</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1655484485637</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Feature 2: Cycle 3: Refactor: Switch-code smell: 2. Decouple the methods introduced from the MarsRover class by returning new instances of Position.">
+      <created>1655484524591</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1655484524591</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +291,9 @@
     <MESSAGE value="Feature 2: Cycle 2: Green: Introducing minimal changes to MarsRover.execute() to move forward in all possible directions." />
     <MESSAGE value="Feature 2: Cycle 3: Refactor: Solve Primitive Obsession code smell by introducing Position class." />
     <MESSAGE value="Feature 2: Cycle 3: Refactor: Move MarsRover and Position classes to main source path." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature 2: Cycle 3: Refactor: Move MarsRover and Position classes to main source path." />
+    <MESSAGE value="Feature 2: Cycle 3: Refactor: Switch-code smell: 1. Extract methods from the switch cases." />
+    <MESSAGE value="Feature 2: Cycle 3: Refactor: Switch-code smell: 2. Decouple the methods introduced from the MarsRover class by returning new instances of Position." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature 2: Cycle 3: Refactor: Switch-code smell: 2. Decouple the methods introduced from the MarsRover class by returning new instances of Position." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

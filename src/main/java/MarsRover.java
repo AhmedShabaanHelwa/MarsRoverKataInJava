@@ -27,22 +27,22 @@ class MarsRover {
         return position.getX() + ":" + position.getY() + ":" + direction;
     }
 
-    private Position moveWest(Position position) {
+    private static Position moveWest(Position position) {
         position.setX(position.getX() - 1);
         return position;
     }
 
-    private Position moveSouth(Position position) {
+    private static Position moveSouth(Position position) {
         position.setY(position.getY() - 1);
         return position;
     }
 
-    private Position moveEast(Position position) {
+    private static Position moveEast(Position position) {
         position.setX(position.getX() + 1);
         return position;
     }
 
-    private Position moveNorth(Position position) {
+    private static Position moveNorth(Position position) {
         position.setY(position.getY() + 1);
         return position;
     }
