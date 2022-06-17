@@ -1,12 +1,10 @@
 class MarsRover {
-
     private final String initialState;
     private Position position;
     private IDirection direction;
 
     MarsRover(String initialState) {
         this.initialState = initialState;
-        position = new Position();
     }
 
     String execute(String commands) {
@@ -18,24 +16,14 @@ class MarsRover {
 
         if (commands.equals("M")) {
             switch (directionCharacter) {
-                case "N" -> {
-                    direction = new North();
-                    position = direction.moveForward(position);
-                }
-                case "E" -> {
-                    direction = new East();
-                    position = direction.moveForward(position);
-                }
-                case "S" -> {
-                    direction = new South();
-                    position = direction.moveForward(position);
-                }
-                case "W" -> {
-                    direction = new West();
-                    position = direction.moveForward(position);
-                }
+                case "N" -> direction = new North();
+                case "E" -> direction = new East();
+                case "S" -> direction = new South();
+                case "W" -> direction = new West();
                 default -> throw new UnsupportedOperationException("Direction " + direction + " is not supported.");
             }
+
+            position = direction.moveForward(position);
         }
         return position.getX() + ":" + position.getY() + ":" + directionCharacter;
     }
