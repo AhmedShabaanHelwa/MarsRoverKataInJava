@@ -15,8 +15,21 @@ class MarsRover {
         String direction = initialStateStrings[2];
 
         if(commands.equals("M")){
-            return x + ":" + (++y) + ":" + direction;
+            switch (direction){
+                case "N":
+                    y += 1;
+                    break;
+                case "E":
+                    x += 1;
+                    break;
+                case "S":
+                    y -= 1;
+                    break;
+                case "W":
+                    x -= 1;
+                    break;
+            }
         }
-        return initialState;
+        return x + ":" + y + ":" + direction;
     }
 }

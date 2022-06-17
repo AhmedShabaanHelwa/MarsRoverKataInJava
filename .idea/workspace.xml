@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 2: Cycle 3: Refactor: Refactor test methods to be a single one accepting the command and states.">
+    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 2: Mini Cycle: Triangulating moving forward to all possible directions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MarsRoverShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MarsRoverShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MarsRover.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +120,7 @@
       <workItem from="1655366761558" duration="2367000" />
       <workItem from="1655409575001" duration="1287000" />
       <workItem from="1655457214049" duration="3020000" />
-      <workItem from="1655463508771" duration="4211000" />
+      <workItem from="1655463508771" duration="5070000" />
     </task>
     <task id="LOCAL-00001" summary="Add.">
       <created>1655366789394</created>
@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655470819541</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Feature 2: Mini Cycle: Triangulating moving forward to all possible directions.">
+      <created>1655472067876</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655472067876</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +245,8 @@
     <MESSAGE value="Feature 2: Move Forward. Mini Cycle:  Triangulating moveForward test to accept different initial and final states (North only)." />
     <MESSAGE value="Feature 2: Move Forward. Cycle 2: Green: Parse the initialState inside execute() and increment the corresponding direction." />
     <MESSAGE value="Feature 2: Cycle 3: Refactor: Refactor test methods to be a single one accepting the command and states." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature 2: Cycle 3: Refactor: Refactor test methods to be a single one accepting the command and states." />
+    <MESSAGE value="Feature 2: Mini Cycle: Triangulating moving forward to all possible directions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature 2: Mini Cycle: Triangulating moving forward to all possible directions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -250,7 +258,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/MarsRoverShould.java</url>
-          <line>16</line>
+          <line>19</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
