@@ -3,12 +3,12 @@ class MarsRover {
     private final String initialState;
     private Position position;
 
-    public MarsRover(String initialState) {
+     MarsRover(String initialState) {
         this.initialState = initialState;
         position = new Position();
     }
 
-    public String execute(String commands) {
+    String execute(String commands) {
 
         String[] initialStateStrings = initialState.split(":");
         position.setX(Integer.parseInt(initialStateStrings[0]));
@@ -17,10 +17,10 @@ class MarsRover {
 
         if (commands.equals("M")) {
             switch (direction) {
-                case "N" -> position = North.moveForward(position);
-                case "E" -> position = East.moveForward(position);
-                case "S" -> position = South.moveForward(position);
-                case "W" -> position = West.moveForward(position);
+                case "N" -> position = new North().moveForward(position);
+                case "E" -> position = new East().moveForward(position);
+                case "S" -> position = new South().moveForward(position);
+                case "W" -> position = new West().moveForward(position);
                 default -> throw new UnsupportedOperationException("Direction " + direction + " is not supported.");
             }
         }
