@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 2: Move Forward. Cycle 2: Green: Introduce minimal change for MarsRover.execute() function to move one step forward in Y direction.">
-      <change beforePath="$PROJECT_DIR$/src/test/java/MarsRoverShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MarsRoverShould.java" afterDir="false" />
+    <list default="true" id="9e96697e-2c6d-4797-949f-70bf8514b99f" name="Changes" comment="Feature 2: Move Forward. Mini Cycle:  Triangulating moveForward test to accept different initial and final states (North only).">
+      <change beforePath="$PROJECT_DIR$/src/test/java/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MarsRover.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <recent name="C:\Users\Ahmed\IdeaProjects\MarsRoverKata_03" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MarsRoverShould">
+  <component name="RunManager" selected="JUnit.MarsRoverShould.moveForward">
     <configuration name="MarsRoverShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRoverKata_03" />
       <option name="PACKAGE_NAME" value="" />
@@ -106,7 +106,7 @@
       <updated>1655366759618</updated>
       <workItem from="1655366761558" duration="2367000" />
       <workItem from="1655409575001" duration="1287000" />
-      <workItem from="1655457214049" duration="1415000" />
+      <workItem from="1655457214049" duration="1725000" />
     </task>
     <task id="LOCAL-00001" summary="Add.">
       <created>1655366789394</created>
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655458436900</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Feature 2: Move Forward. Mini Cycle:  Triangulating moveForward test to accept different initial and final states (North only).">
+      <created>1655458782112</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655458782112</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,21 +207,7 @@
     <MESSAGE value="Feature 1: Print Initial State. Cycle 2: Green: Introduce minimal changes as a final field initialPosition, initialized at creation of MarsRover object." />
     <MESSAGE value="Feature 2: Move Forward. Cycle 1: Red: Add test to move forward one step from center towards north (Y) direction." />
     <MESSAGE value="Feature 2: Move Forward. Cycle 2: Green: Introduce minimal change for MarsRover.execute() function to move one step forward in Y direction." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature 2: Move Forward. Cycle 2: Green: Introduce minimal change for MarsRover.execute() function to move one step forward in Y direction." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/MarsRoverShould.java</url>
-          <line>25</line>
-          <properties class="MarsRoverShould" method="moveForward">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Feature 2: Move Forward. Mini Cycle:  Triangulating moveForward test to accept different initial and final states (North only)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature 2: Move Forward. Mini Cycle:  Triangulating moveForward test to accept different initial and final states (North only)." />
   </component>
 </project>
