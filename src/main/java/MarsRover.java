@@ -17,10 +17,10 @@ class MarsRover {
 
         if (commands.equals("M")) {
             switch (direction) {
-                case "N" -> position = North.moveNorth(position);
-                case "E" -> position = East.moveEast(position);
-                case "S" -> position = South.moveSouth(position);
-                case "W" -> position = West.moveWest(position);
+                case "N" -> position = North.moveForward(position);
+                case "E" -> position = East.moveForward(position);
+                case "S" -> position = South.moveForward(position);
+                case "W" -> position = West.moveForward(position);
                 default -> throw new UnsupportedOperationException("Direction " + direction + " is not supported.");
             }
         }
