@@ -5,6 +5,7 @@ class MarsRover {
 
     MarsRover(String initialState) {
         this.initialState = initialState;
+        position = new Position();
     }
 
     String execute(String commands) {
