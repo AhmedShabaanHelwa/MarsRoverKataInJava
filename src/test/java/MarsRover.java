@@ -9,6 +9,9 @@ class MarsRover {
 
     public String execute(String commands) {
 
+        if(commands.equals("M")){
+            return "0:1:N";
+        }
         return initialState;
     }
 }
